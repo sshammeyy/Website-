@@ -2215,7 +2215,7 @@ button,
     font-size: 0.9em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
-      color: #cc11f0; }/*insde the search bar */
+      color: #e281f5; }/*insde the search bar */
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
       -webkit-transition: color 0.2s ease-in-out;
@@ -2272,3 +2272,4 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
