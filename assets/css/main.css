@@ -1514,7 +1514,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: rgba(106, 245, 173, 0.05); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
@@ -1927,7 +1927,7 @@ button,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #edb4f8;/* THIS IS THE SIDE!!!! */
+  background-color: #f30000;/* THIS IS THE SIDE!!!! */
   font-size: 0.9em;
   position: relative;
   width: 26em; }
