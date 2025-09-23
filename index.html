@@ -168,26 +168,14 @@
 						<div class="inner">
 
 						<!-- Search -->
+
 						<section id="search" class="alt">
-							<form onsubmit="return false;">
-								<input type="text" name="query" id="query" placeholder="Search" onkeyup="searchContent()" />
+							<form method="get" action="https://sshammeyy.github.io/Website-/search" target="_blank">
+								<input type="text" name="q" id="query" placeholder="Search" />
+								<input type="hidden" name="sitesearch" value="yourdomain.com" />
 							</form>
 						</section>
 
-						<script>
-						function searchContent() {
-							let input = document.getElementById("query").value.toLowerCase();
-							let items = document.querySelectorAll("article, section p, h3, h2"); // adjust as needed
-
-							items.forEach(item => {
-								if (item.innerText.toLowerCase().includes(input)) {
-									item.style.display = "";
-								} else {
-									item.style.display = "none";
-								}
-							});
-						}
-						</script>
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
