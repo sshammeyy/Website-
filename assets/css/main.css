@@ -1011,7 +1011,7 @@ form {
   margin: 0 0 2em 0; }
 
 label {
-  color: #3d4449;
+  color: #3d4449; 
   display: block;
   font-size: 0.9em;
   font-weight: 600;
@@ -1068,7 +1068,7 @@ select {
   padding-right: 2.75em;
   text-overflow: ellipsis; }
   select option {
-    color: #3d4449;
+    color: #ed3695; /*see what this changes */
     background: #020202; }
   select:focus::-ms-value {
     background-color: transparent; }
