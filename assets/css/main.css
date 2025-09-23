@@ -193,7 +193,7 @@ blockquote {
   padding: 0.5em 0 0.5em 2em; }
 
 code {
-  background: rgba(230, 235, 237, 0.25);
+  background: #ff008d;
   border-radius: 0.375em;
   border: solid 1px #ff008d;
   font-family: "Courier New", monospace;
