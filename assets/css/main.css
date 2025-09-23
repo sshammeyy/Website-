@@ -2288,10 +2288,12 @@ body {
   background-color: yellow !important;
 }
 /* Force heading colors */
-h1, h2, h3, h4, h5, h6 {
-  color: #ed3695 !important;   /* Pink */
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
-  line-height: 1.5;
-  margin: 0 0 1em 0;
+/* FORCE all headings pink */
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
+  color: #ed3695 !important;
 }
