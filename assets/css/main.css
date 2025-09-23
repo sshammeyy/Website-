@@ -2107,10 +2107,14 @@ button,
         right: -0.5em;
         top: 0; } }
         
+/* Force banner heading color */
 #banner h1 {
-  margin-top: -0.125em;
-  color: #ed3695 !important; /* force your pink */
+  color: #e63591 !important;  /* Pink shade */
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
 }
+
+
 /* Banner */
 #banner {
   padding: 6em 0 4em 0 ;
@@ -2275,7 +2279,3 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
-/* Force banner heading color */
-#banner h1 {
-  color: #ed3695 !important;
-}
