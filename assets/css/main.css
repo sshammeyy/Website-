@@ -1155,19 +1155,19 @@ input[type="radio"] + label:before {
   border-radius: 100%; }
 
 ::-webkit-input-placeholder {
-  color: #ff008d !important;
+  color: #ff008d !important; /* icon holder color */
   opacity: 1.0; }
 
 :-moz-placeholder {
-  color: #ff008d !important;
+  color: #ff008d !important; /* icon holder color */
   opacity: 1.0; }
 
 ::-moz-placeholder {
-  color: #ff008d !important;
+  color: #ff008d !important; /* icon holder color */
   opacity: 1.0; }
 
 :-ms-input-placeholder {
-  color: #ff008d !important;
+  color: #ff008d !important; /* icon holder color */
   opacity: 1.0; }
 
 /* Box */
@@ -1454,7 +1454,7 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #3d4449;
+    color: #3d4449; /* Text for sidebar text */
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
@@ -2107,7 +2107,10 @@ button,
         right: -0.5em;
         top: 0; } }
         
-
+#banner h1 {
+  margin-top: -0.125em;
+  color: #ed3695 !important; /* force your pink */
+}
 /* Banner */
 #banner {
   padding: 6em 0 4em 0 ;
