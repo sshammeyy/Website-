@@ -121,7 +121,7 @@ a {
       color: inherit; }
 
 strong, b {
-  color: #3d4449;
+  color: #f52ab8; /*see what this changed */
   font-weight: 600; }
 
 em, i {
@@ -2222,7 +2222,7 @@ button,
       -ms-transition: color 0.2s ease-in-out;
       transition: color 0.2s ease-in-out;
       text-decoration: none;
-      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      -h1r: rgba(255, 255, 255, 0);
       position: relative; }
       #menu ul a.opener:before, #menu ul span.opener:before {
         -moz-osx-font-smoothing: grayscale;
