@@ -2195,17 +2195,17 @@ button,
 
 /* Menu */
 #menu ul {
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: #000000;//*text possibly */
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
-  letter-spacing: 0.075em;
-  list-style: none;
-  margin-bottom: 0;
-  padding: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #e63591; /* text possibly */
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
   text-transform: uppercase; }
   #menu ul a, #menu ul span {
     border-bottom: 0;
